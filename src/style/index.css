@@ -60,3 +60,28 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.body-content {
+  
+}
+
+.banner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color:var(--app-blue);
+  padding: 20px;
+}
+
