@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url('./reset.css');
 
 :root {
   --app-dark-bg:#1a1d28;
@@ -29,4 +29,34 @@ h1, h2, h3, a, p {
   margin: 0px auto;
   padding: 25px;
   border-radius: 5px;
+}
+
+
+/*********/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--app-dark-bg);
+  color: var(--app-light-bg);
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: var(--app-light-bg);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
