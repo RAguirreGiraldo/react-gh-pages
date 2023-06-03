@@ -31,9 +31,6 @@ h1, h2, h3, a, p {
   border-radius: 5px;
 }
 
-
-/*********/
-
 header {
   display: flex;
   align-items: center;
@@ -61,16 +58,30 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.body{
+  width: 100;
+  min-height: 50vh;
+}
+
 .body-container {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
 }
 
 .body-content {
-  
+  padding: 10px;
+  background-color: var(--app-light-bg); 
+  box-shadow: 0 0 10px var(--app-light-bg); 
+  margin-top: 20px;
+}
+
+.body-content p {
+  font-size: 18px;
+  line-height:1.5;
+  color: var(--app-purple);
+  margin: 0 0 10px;
 }
 
 .banner-container {
@@ -81,7 +92,8 @@ nav a:hover {
 }
 
 .banner {
-  background-color:var(--app-blue);
+  background-color:var(--app-dark-bg);
+  color: var(--app-light-bg);
   padding: 20px;
 }
 
