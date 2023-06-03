@@ -22,7 +22,9 @@ h1, h2, h3, h4, a {
 }
 
 p {
-  color : var(--app-dark-bg)
+  color : var(--app-dark-bg);
+  font-size: 35px;
+  font-weight: bold
 }
 
 .container {
@@ -91,14 +93,6 @@ nav a:hover {
   margin: 0 0 10px;
 }
 
-/*.banner-container {
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}*/
-
 .banner {
   background-color:var(--app-light-bg);
   color: var(--app-dark-bg);
@@ -149,7 +143,6 @@ button {
   margin-top: 20px;
   padding: 5%;
   color: var(--app-light-bg);
-  
 }
 
 .image-container {
@@ -162,4 +155,5 @@ button {
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 5px;
 }

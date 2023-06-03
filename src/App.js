@@ -14,7 +14,7 @@ function App() {
                             to the rugged coastal beauty of the Atlantic and Pacific shores, Canada offers a 
                             diverse array of natural wonders."/>
         <Gallery landscapes={landscapes} />
-        <Footer text = "This a Footer"/>
+        <Footer text = "&copy; Roberto Aguirre"/>
     </div>
   );
 }
