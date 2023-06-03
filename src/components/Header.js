@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header>
-        <h1>Museum Art Deco</h1>
+        <h1>Beautiful Landscapes</h1>
         <Navigation />
     </header>
   );

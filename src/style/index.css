@@ -10,14 +10,19 @@
   --app-blue:#3c57ff;
   --app-blue-hover:#364ee6;
   --app-light-bg: #ffffff;
+  --app-gray: #c0bbbac3;
 }
 
 .body {
   background: var(--app-dark-bg);
 }
 
-h1, h2, h3, a, p {
+h1, h2, h3, h4, a {
   color: var(--app-light-bg);
+}
+
+p {
+  color : var(--app-dark-bg)
 }
 
 .container {
@@ -64,7 +69,7 @@ nav a:hover {
 }
 
 .body-container {
-  height: 100vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +79,9 @@ nav a:hover {
   padding: 10px;
   background-color: var(--app-light-bg); 
   box-shadow: 0 0 10px var(--app-light-bg); 
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .body-content p {
@@ -84,17 +91,20 @@ nav a:hover {
   margin: 0 0 10px;
 }
 
-.banner-container {
+/*.banner-container {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 .banner {
-  background-color:var(--app-dark-bg);
-  color: var(--app-light-bg);
-  padding: 20px;
+  background-color:var(--app-light-bg);
+  color: var(--app-dark-bg);
+  height: 35vh;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .footer {
@@ -124,18 +134,32 @@ button {
   color: var(--app-light-bg);
   border: none;
   padding: 8px 16px;
+  margin-right: 5px;
 }
 
 .button-blue:hover {
   background-color: var(--app-blue);
 }
 
-.button-red {
-  background-color: var(--app-red);
+.image-gallery {
+  background-color: var(--app-gray);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 5%;
   color: var(--app-light-bg);
-  border: none;
+  
 }
 
-.button-red:hover {
-  background-color: var(--app-red);
+.image-container {
+  flex: 1;
+  text-align: left;
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
 }

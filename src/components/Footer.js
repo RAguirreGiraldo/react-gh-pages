@@ -1,10 +1,10 @@
 import React from 'react';
 import '../style/index.css';
 
-function Footer() {
+function Footer(props) {
     return(
         <div className="footer">
-            <p>This a Footer</p>            
+            <h4>{props.text}</h4>            
         </div>        
     );
 }
