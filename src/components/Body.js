@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import BodyContent from './BodyContent';
+import Button from './Button';
 
 function Body() {
     return(
@@ -11,6 +12,7 @@ function Body() {
             <div className="body-container">
                 <div className="body-content">
                     <BodyContent />
+                    <Button />
                 </div>
             </div>
             </div>        
@@ -18,13 +20,3 @@ function Body() {
 }
 
 export default Body;
-
-/* 
-        <div className="banner-container">
-            <div className="banner">
-                <Banner message = "Enjoy Our galery"/>
-            </div>            
-            <div className="content-container">
-                <BodyContent />
-            </div>
-        </div>*/ 

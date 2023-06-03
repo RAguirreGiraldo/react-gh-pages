@@ -97,3 +97,45 @@ nav a:hover {
   padding: 20px;
 }
 
+.footer {
+  background-color: var(--app-dark-bg);
+  color: var(--app-light-bg);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.button-white {
+  background-color: var(--app-light-bg);
+  color: var(--app-blue);
+  border: 1px solid var(--app-blue);
+  padding: 8px 16px;
+}
+
+.button-blue {
+  background-color: var(--app-blue);
+  color: var(--app-light-bg);
+  border: none;
+  padding: 8px 16px;
+}
+
+.button-blue:hover {
+  background-color: var(--app-blue);
+}
+
+.button-red {
+  background-color: var(--app-red);
+  color: var(--app-light-bg);
+  border: none;
+}
+
+.button-red:hover {
+  background-color: var(--app-red);
+}

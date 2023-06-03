@@ -1,8 +1,6 @@
 import React from 'react';
 import '../style/index.css';
 import Navigation from './Navigation';
-/*import Banner from './Banner';*/
-
 
 function Header() {
   return (
